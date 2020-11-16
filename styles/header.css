@@ -1,79 +1,90 @@
 header {
-    background-image: url(../imgs/stephen-leonardi.png);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-size: cover;
+  background-image: url(../imgs/stephen-leonardi.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
 }
 
 .shading {
-    background-color:rgba(31, 32, 33, 0.79);
+  background-color: rgba(31, 32, 33, 0.79);
 }
 
 .header-content {
-    width: 1280px;
-    margin: auto;
+  width: 1280px;
+  margin: auto;
 }
 
 .header-panel {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1280px;
-    padding-top: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1280px;
+  padding-top: 26px;
 }
 
 .header-panel > * {
-    flex: 0 1 auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
 }
 
 .main-menu {
-    flex: 1 1 auto;
-    margin-left: 120px;
-    margin-right: 120px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .main-menu > a {
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: normal;
-    margin-right: 50px;
-    cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  margin-right: 50px;
+  cursor: pointer;
 }
 
 .tel {
-    align-self: flex-end;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    color: #ffffff;
-    text-align: right;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  text-align: right;
 }
 
 .tel > * {
-    width: 100%;
+  width: 100%;
 }
 
 .tel > a {
-    color: #ffffff;
-    text-decoration: none;
-    cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .offtop-tel {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    padding-top: 3px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 3px;
 }
 
 .header-title > h2 {
-    color: #ffffff;
-    font-size: 36px;
-    line-height: 46px;
-    font-weight: bold;
-    padding-top: 66px;
-    padding-bottom: 66px;
-    margin: 0;
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: bold;
+  padding-top: 66px;
+  padding-bottom: 66px;
+  margin: 0;
 }

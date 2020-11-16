@@ -1,194 +1,217 @@
 main {
-    background-color: #ffffff;
-    padding-top: 37px;
+  background-color: #ffffff;
+  padding-top: 37px;
 }
 
 .page-content {
-    width: 1280px;
-    margin: auto;
+  width: 1280px;
+  margin: auto;
 }
 
 .search-title {
-    display: inline-block;
-    margin: 0 48px 0 0;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
+  display: inline-block;
+  margin: 0 48px 0 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .sort {
-    display: inline;
+  display: inline;
 }
 
 .sort > div {
-    display: inline-block;
+  display: inline-block;
 }
 
 .sort > .sort-text {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .price.sort-text {
-    margin-right: 14px;
+  margin-right: 14px;
 }
 
 .age.sort-text {
-    margin-right: 24px;
+  margin-right: 24px;
 }
 
 .sort-btn {
-    margin-right: 55px;
-    cursor: pointer;
+  margin-right: 55px;
+  cursor: pointer;
 }
 
 .sort-btn.sort-top {
-    transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
 .sort-btn.sort-bottom {
-    transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .search-blocks {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin-top: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 38px;
 }
 
 .search-blocks > .search-item {
-    flex: 0 1 auto;
-    margin-bottom: 27px;
-    width: 380px;
-    position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  margin-bottom: 27px;
+  width: 380px;
+  position: relative;
 }
 
 .search-item > .preview {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .search-item > .sale-btn {
-    position: absolute;
-    left:38px;
-    top: 34px;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 39px;
-    text-align: center;
-    overflow: hidden;
-    white-space: nowrap;
-    color: #FFFFFF;
-    background-color: #E62D2D;
-    border-radius: 10px;
-    width: 78px;
+  position: absolute;
+  left: 38px;
+  top: 34px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 39px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #e62d2d;
+  border-radius: 10px;
+  width: 78px;
 }
 
 .search-item > .like-btn {
-    position: absolute;
-    right: 32px;
-    top: 36.7px;
-    cursor: pointer;
-    transition: .55s opacity;
+  position: absolute;
+  right: 32px;
+  top: 36.7px;
+  cursor: pointer;
+  -webkit-transition: 0.55s opacity;
+  -o-transition: 0.55s opacity;
+  transition: 0.55s opacity;
 }
 
 .search-item > .like-btn:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .like-btn.translucent {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .like-btn.translucent:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .description > .title {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0;
 }
 
 .description {
-    padding: 29px;
-    background-color: #F3F3F3;
+  padding: 29px;
+  background-color: #f3f3f3;
 }
 
 .description > .properties {
-    display: flex;
-    justify-content: space-between;
-    border-left: solid 4px #6EBBD3;
-    padding: 0 18px;
-    margin: 22px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-left: solid 4px #6ebbd3;
+  padding: 0 18px;
+  margin: 22px 0;
 }
 
 .properties > div {
-    flex: 1 1 auto;
-    max-width: 33%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  max-width: 33%;
 }
 
 .properties > div > small {
-    display: block;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
+  display: block;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .description > .price {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .search-item > .buy-btn {
-    background-color: #6EBBD3;
-    width: 100%;
-    height: 65px;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 65px;
-    text-align: center;
-    overflow: hidden;
-    white-space: nowrap;
-    border-radius: 0 0 10px 10px;
-    cursor: pointer;
-    transition: .55s;
+  background-color: #6ebbd3;
+  width: 100%;
+  height: 65px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 65px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+  -webkit-transition: 0.55s;
+  -o-transition: 0.55s;
+  transition: 0.55s;
 }
 
 .search-item > .buy-btn:hover {
-    background-color: #4b7582;
+  background-color: #4b7582;
 }
 
 .buy-btn.not-stock {
-    background-color: #1F2021;
-    cursor: not-allowed;
+  background-color: #1f2021;
+  cursor: not-allowed;
 }
 
 .buy-btn.not-stock:hover {
-    background-color: #1F2021;
-    opacity: 0.85;
+  background-color: #1f2021;
+  opacity: 0.85;
 }
 
 .show-more-btn {
-    margin: 41px auto 83px auto;
-    border: 1px solid #CACACA;
-    border-radius: 10px;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    width: 380px;
-    line-height: 65px;
-    text-align: center;
-    overflow: hidden;
-    white-space: nowrap;
-    cursor: pointer;
+  margin: 41px auto 83px auto;
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  width: 380px;
+  line-height: 65px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
 }
 
 .show-more-btn:hover {
-    border: 1px solid #4b7582;
+  border: 1px solid #4b7582;
 }

@@ -1,90 +1,115 @@
 @media only screen and (max-width: 830px) {
-    body {
-        min-width: 500px;
-    }
-    .header-content, .header-panel {
-        min-width: 380px;
-        width: 90%;
-    }
-    .header-panel {
-        flex-flow: column nowrap;
-    }
-    .header-panel > * {
-        margin-bottom: 28px;
-    }
-    .main-menu {
-        flex: 1 1 auto;
-        margin-left: 50px;
-        margin-right: 50px;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        order: 1;
-    }
-    .main-menu > a {
-        width: 100%;
-        text-align: center;
-        margin-right: 0;
-        font-size: 24px;
-        line-height: 50px;
-    }
-    .tel {
-        width: 100%;
-        text-align: center;
-    }
-    .page-content {
-        min-width: 380px;
-        width: 90%;
-    }
-    .search-item {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    footer {
-        min-width: 380px;
-        width: 90%;
-    }
-    .footer-content {
-        flex-flow: row wrap;
-        padding: 0;
-        padding: 30px;
-    }
-    .footer-block {
-        width: 100%;
-        text-align: center;
-    }
-    .footer-block > p {
-        margin: auto;
-        height: auto;
-    }
-    .footer-content > .footer-block > form {
-        margin-top: 28px;
-        display: flex;
-        flex-flow: column nowrap;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .footer-block > form > input {
-        width: auto!important;
-        margin-right: 0!important;
-    }
-    .subscribe-btn {
-        margin-top: 28px;
-        width: auto!important;
-        font-size: 20px!important;
-    }
-    .subscribe > input[type=checkbox], .footer-block > .subscribe > input[type=checkbox]:checked:after {
-        width: 30px;
-        height: 30px;
-    }
-    .subscribe > input[type=checkbox]:checked:after {
-        line-height: 30px;
-        font-size: 24px;
-        width: 30px;
-        height: 30px;
-    }
-    .subscribe > label[for=subscribe-checkbox] {
-        font-size: 24px;
-        line-height: 24px;
-    }
+  body {
+    min-width: 500px;
+  }
+  .header-content,
+  .header-panel {
+    min-width: 380px;
+    width: 90%;
+  }
+  .header-panel {
+    margin: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .header-panel > * {
+    margin-bottom: 28px;
+  }
+  .main-menu {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .main-menu > a {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    font-size: 24px;
+    line-height: 50px;
+  }
+  .tel {
+    width: 100%;
+    text-align: center;
+  }
+  .page-content {
+    min-width: 380px;
+    width: 90%;
+  }
+  .search-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer {
+    min-width: 380px;
+    width: 90%;
+  }
+  .footer-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    padding: 0;
+    padding: 30px;
+  }
+  .footer-block {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-block > p {
+    margin: auto;
+    height: auto;
+  }
+  .footer-content > .footer-block > form {
+    margin-top: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer-block > form > input {
+    width: auto !important;
+    margin-right: 0 !important;
+  }
+  .subscribe-btn {
+    margin-top: 28px;
+    width: auto !important;
+    font-size: 20px !important;
+  }
+  .subscribe > input[type="checkbox"],
+  .footer-block > .subscribe > input[type="checkbox"]:checked:after {
+    width: 30px;
+    height: 30px;
+  }
+  .subscribe > input[type="checkbox"]:checked:after {
+    line-height: 30px;
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+  }
+  .subscribe > label[for="subscribe-checkbox"] {
+    font-size: 24px;
+    line-height: 24px;
+  }
 }

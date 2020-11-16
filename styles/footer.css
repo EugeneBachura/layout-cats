@@ -1,121 +1,162 @@
 footer {
-    background-color: #1F2021;  
-    width: 1280px;
-    margin: auto;
-    margin-bottom: 114px;
+  background-color: #1f2021;
+  width: 1280px;
+  margin: auto;
+  margin-bottom: 114px;
 }
 
 .footer-content {
-    padding: 83px 80px 92px 80px;
-    display: flex;
-    justify-content: space-between;
+  padding: 83px 80px 92px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer-content > .footer-block {
-    flex: 0 1 auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
 }
 
 .footer-block > h3 {
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 59px;
-    color: #FFFFFF;
-    margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+  margin: 0;
 }
 
 .footer-block > p {
-    height: 28px;
-    width: 401px;
-    margin-top: 26px;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 91.2%;
-    color: #FFFFFF;
+  height: 28px;
+  width: 401px;
+  margin-top: 26px;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 91.2%;
+  color: #ffffff;
 }
 
 .footer-block > form {
-    display: flex;
-    flex-flow: row wrap;
-    max-width: calc( 300px + 16px + 250px );
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  max-width: calc(300px + 16px + 250px);
 }
 
-.footer-block > form > input[type=email]  {
-    width: calc( 300px - 66px );
-    /*height: 65px;*/
-    border-radius: 10px;
-    background-color: #ffffff;
-    border: none;
-    margin-right: 16px;
-    flex: 0 1 auto;
-    padding: 22px 33px 26px 33px;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
+.footer-block > form > input[type="email"] {
+  width: calc(300px - 66px);
+  /*height: 65px;*/
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  margin-right: 16px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  padding: 22px 33px 26px 33px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
 }
 
-.footer-block > form > input[type=email]::placeholder {
-    color: #000000;
+.footer-block > form > input[type="email"]::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.footer-block > form > input[type="email"]::-moz-placeholder {
+  color: #000000;
+}
+
+.footer-block > form > input[type="email"]:-ms-input-placeholder {
+  color: #000000;
+}
+
+.footer-block > form > input[type="email"]::-ms-input-placeholder {
+  color: #000000;
+}
+
+.footer-block > form > input[type="email"]::placeholder {
+  color: #000000;
 }
 
 .footer-block > form > .subscribe-btn {
-    width: 250px;
-    height: 65px;
-    line-height: 65px;
-    background-color: #6EBBD3;
-    border-radius: 10px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 14px;
-    color: #ffffff;
-    flex: 0 1 auto;
-    cursor: pointer;
-    transition: .55s;
-    border: none;
-    font-family: 'Montserrat', Arial, sans-serif;
-} 
+  width: 250px;
+  height: 65px;
+  line-height: 65px;
+  background-color: #6ebbd3;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  cursor: pointer;
+  -webkit-transition: 0.55s;
+  -o-transition: 0.55s;
+  transition: 0.55s;
+  border: none;
+  font-family: "Montserrat", Arial, sans-serif;
+}
 
 .footer-block > form > .subscribe-btn:hover {
-    background-color: #4b7582;
+  background-color: #4b7582;
 }
 
 .subscribe {
-    display: flex;
-    align-items: center;
-    margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 24px;
 }
 
-.subscribe > input[type=checkbox] {
-    margin: 0 18px 0 0;
-    width: 18px;
-    height: 18px;
-    border: none;
-    border-radius: 3px;
-    background-color: #6EBBD3;
-    flex: 0 1 auto;
+.subscribe > input[type="checkbox"] {
+  margin: 0 18px 0 0;
+  width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 3px;
+  background-color: #6ebbd3;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
 }
 
-.subscribe > input[type=checkbox]:after {
-    content: " ";
-    background-color: #6EBBD3;
-    display: inline-block;
-    visibility: visible;
-}
-  
-.subscribe > input[type=checkbox]:checked:after {
-    content: "\2714";
-    width: 18px;
-    height: 18px;
-    text-align: center;
-    color: #ffffff;
-    line-height: 18px;
-    font-weight: bold;
-    font-size: 10px;
+.subscribe > input[type="checkbox"]:after {
+  content: " ";
+  background-color: #6ebbd3;
+  display: inline-block;
+  visibility: visible;
 }
 
-.subscribe > label[for=subscribe-checkbox] {
-    color: #ffffff;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    flex: 0 1 auto;
+.subscribe > input[type="checkbox"]:checked:after {
+  content: "\2714";
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.subscribe > label[for="subscribe-checkbox"] {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
 }
