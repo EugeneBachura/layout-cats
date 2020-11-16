@@ -1,0 +1,23 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    opacity: 0;
+    transition: .55s opacity;
+}
+
+.mess {
+    width: 100%;
+    position: fixed;
+    padding: 25px;
+    transition: .55s opacity;
+    opacity: 0;
+    top:0;
+    background-color: #6ebbd3;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

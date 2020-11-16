@@ -1,16 +1,9 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    color: #000000;
-}
-
 header {
     background-image: url(../imgs/stephen-leonardi.png);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-size: cover;
 }
 
 .shading {
@@ -46,6 +39,7 @@ header {
     line-height: 22px;
     font-weight: normal;
     margin-right: 50px;
+    cursor: pointer;
 }
 
 .tel {
@@ -55,7 +49,6 @@ header {
     line-height: 29px;
     color: #ffffff;
     text-align: right;
-    margin-bottom: -14.5px;
 }
 
 .tel > * {
@@ -65,6 +58,7 @@ header {
 .tel > a {
     color: #ffffff;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .offtop-tel {

@@ -10,7 +10,7 @@ main {
 
 .search-title {
     display: inline-block;
-    margin: 0 48px 38px 0;
+    margin: 0 48px 0 0;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
@@ -40,6 +40,7 @@ main {
 
 .sort-btn {
     margin-right: 55px;
+    cursor: pointer;
 }
 
 .sort-btn.sort-top {
@@ -54,14 +55,12 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-top: 38px;
 }
 
 .search-blocks > .search-item {
     flex: 0 1 auto;
     margin-bottom: 27px;
-}
-
-.search-item {
     width: 380px;
     position: relative;
 }
@@ -91,6 +90,20 @@ main {
     position: absolute;
     right: 32px;
     top: 36.7px;
+    cursor: pointer;
+    transition: .55s opacity;
+}
+
+.search-item > .like-btn:hover {
+    opacity: 0.5;
+}
+
+.like-btn.translucent {
+    opacity: 0.5;
+}
+
+.like-btn.translucent:hover {
+    opacity: 1;
 }
 
 .description > .title {
@@ -143,6 +156,22 @@ main {
     overflow: hidden;
     white-space: nowrap;
     border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    transition: .55s;
+}
+
+.search-item > .buy-btn:hover {
+    background-color: #4b7582;
+}
+
+.buy-btn.not-stock {
+    background-color: #1F2021;
+    cursor: not-allowed;
+}
+
+.buy-btn.not-stock:hover {
+    background-color: #1F2021;
+    opacity: 0.85;
 }
 
 .show-more-btn {
@@ -157,4 +186,9 @@ main {
     text-align: center;
     overflow: hidden;
     white-space: nowrap;
+    cursor: pointer;
+}
+
+.show-more-btn:hover {
+    border: 1px solid #4b7582;
 }

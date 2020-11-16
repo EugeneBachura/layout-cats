@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1280px) {
+    .header-content, .header-panel {
+        width: 830px;
+    }
+    .main-menu {
+        flex: 1 1 auto;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .page-content {
+        width: 830px;
+    }
+    footer {
+        width: 830px;
+    }
+    .footer-content {
+        flex-flow: row wrap;
+    }
+    .footer-content > .footer-block > form {
+        margin-top: 28px;
+    }
+}

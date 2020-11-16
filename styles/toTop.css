@@ -1,0 +1,28 @@
+.to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 99;
+    width: 59px;
+    height: 59px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #6EBBD3;
+    color: #444;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+  }
+  
+  .to-top:hover {
+    background: #4b7582;
+  }
+  
+  .to-top-show {
+    display: block;
+  }
+
+  .to-top > img {
+      width: 18px;
+      margin: 23.71px 21px 24.71px 20px;
+  }

@@ -35,6 +35,8 @@ footer {
 
 .footer-block > form {
     display: flex;
+    flex-flow: row wrap;
+    max-width: calc( 300px + 16px + 250px );
 }
 
 .footer-block > form > input[type=email]  {
@@ -51,6 +53,10 @@ footer {
     line-height: 17px;
 }
 
+.footer-block > form > input[type=email]::placeholder {
+    color: #000000;
+}
+
 .footer-block > form > .subscribe-btn {
     width: 250px;
     height: 65px;
@@ -62,15 +68,23 @@ footer {
     font-size: 14px;
     color: #ffffff;
     flex: 0 1 auto;
+    cursor: pointer;
+    transition: .55s;
+    border: none;
+    font-family: 'Montserrat', Arial, sans-serif;
 } 
 
-.footer-block > .subscribe {
+.footer-block > form > .subscribe-btn:hover {
+    background-color: #4b7582;
+}
+
+.subscribe {
     display: flex;
     align-items: center;
     margin-top: 24px;
 }
 
-.footer-block > .subscribe > input[type=checkbox] {
+.subscribe > input[type=checkbox] {
     margin: 0 18px 0 0;
     width: 18px;
     height: 18px;
@@ -80,14 +94,14 @@ footer {
     flex: 0 1 auto;
 }
 
-.footer-block > .subscribe > input[type=checkbox]:after {
+.subscribe > input[type=checkbox]:after {
     content: " ";
     background-color: #6EBBD3;
     display: inline-block;
     visibility: visible;
 }
   
-.footer-block > .subscribe > input[type=checkbox]:checked:after {
+.subscribe > input[type=checkbox]:checked:after {
     content: "\2714";
     width: 18px;
     height: 18px;
@@ -98,7 +112,7 @@ footer {
     font-size: 10px;
 }
 
-.footer-block > .subscribe > label[for=subscribe-checkbox] {
+.subscribe > label[for=subscribe-checkbox] {
     color: #ffffff;
     font-weight: normal;
     font-size: 14px;
