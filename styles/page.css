@@ -1,11 +1,11 @@
 main {
   background-color: #ffffff;
-  padding-top: 37px;
 }
 
 .page-content {
   width: 1280px;
   margin: auto;
+  margin-top: 37px;
 }
 
 .search-title {

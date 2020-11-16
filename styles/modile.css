@@ -48,6 +48,10 @@
     width: 100%;
     text-align: center;
   }
+  .sort {
+    display: block;
+    margin-top: 22px;
+  }
   .page-content {
     min-width: 380px;
     width: 90%;
